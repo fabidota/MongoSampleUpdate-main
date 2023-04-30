@@ -27,15 +27,6 @@ function calculaProdutorio(req, res) {
     res.send(JSON.stringify({ metodo, multiplicacao }));
 }
 
-
-
-
-
-
-
-
-
-
 function produtorioRecursivo(m, n) {
     if (m == n)
         return m + (1.0 / m);
